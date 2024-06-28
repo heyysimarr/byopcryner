@@ -18,3 +18,54 @@ CryNER is a named entity recognition (NER) model developed to identify cryptocur
 
 5. **Deployment**
    - Using Flask to deploy the models via a web interface.
+
+## Final Deliverables
+
+1. **Text Detection System**
+   - Three NER models for unigram, bigram, and trigram detection of cryptocurrency-related content in text.
+
+2. **Flask Website Interface**
+   - A web interface with a text input area allowing users to input text and identify n-grams separately.
+
+## Abstract and Methodology
+
+CryNER aims to detect cryptocurrency-related entities in text. For example, in the text: “At its core, cryptocurrency leverages blockchain technology—a decentralized and transparent ledger—to facilitate secure transactions,” the model would identify words like 'cryptocurrency' and 'ledger' and label them as crypto.
+
+### Dataset
+- Crypto Headlines + NER Model -https://www.kaggle.com/datasets/kaballa/cryptoner-ml-model
+
+## Tech Stack
+
+- **Python**: Core programming language.
+- **Jupyter Notebook**: Environment for code and markdowns.
+- **Pandas**: Data manipulation library.
+- **spaCy3**: NLP library for NER.
+- **Matplotlib**: Library for data visualization.
+- **Flask**: Web framework for developing the web interface.
+- **HTML/CSS**: For structuring and styling the web interface.
+- **JSON**: For storing annotations.
+- **NumPy**: For numerical operations.
+- **tqdm**: For progress bars.
+- **re (Regular Expressions)**: For text processing.
+- **Git**: For version control.
+  
+## Results
+
+### Unigram Model
+- Identifies single cryptocurrency entities.
+
+### Bigram Model
+- Identifies phrases containing two cryptocurrency-related terms.
+
+### Trigram Model
+- Identifies phrases containing three cryptocurrency-related terms.
+
+---
+
+This README provides an overview of the CryNER project, including the model architecture, methodology, tech stack, and deliverables. It aims to be informative for viewers and collaborators referring to this repository.
+
+
+
+
+
+  
